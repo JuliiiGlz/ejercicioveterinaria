@@ -1,0 +1,57 @@
+header, nav, .main, footer{
+    width: 95%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+body {
+    background-image:url(imagenes/fondoIndex.jpg)
+    
+}
+
+nav{
+    color:rgb(189, 129, 179);
+    background: rgb(207, 116, 192);
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+.main .articles{
+    width: 60%;
+    margin-right: 1.5%;
+    background: rgb(218, 175, 191);
+    float:left;
+}
+.main .articles article{
+    padding: 10px;
+    background: rgb(218, 175, 191);
+    margin-bottom: 10px;
+}
+
+aside{
+    width: 30%
+    float: left;
+    background:rgb(194, 97, 132);
+    padding : 5px;
+    box-sizing: border-box;
+}
+
+footer{
+    
+    clear:both;
+    background: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}

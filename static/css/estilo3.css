@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(fondo2.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+nav{
+    color:rgb(192, 141, 184);
+    background: rgb(192, 141, 184);
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+
+.izquierda {
+    text-align: left;
+}
+
+.derecha {
+    text-align: right;
+}
+
+.contenedor-texto-imagen {
+    display: flex;
+    align-items: center;
+}

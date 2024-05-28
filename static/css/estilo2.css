@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(fondo1.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+nav{
+    color:rgb(189, 129, 179);
+    background: rgb(207, 116, 192);
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
